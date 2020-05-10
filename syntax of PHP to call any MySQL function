@@ -1,0 +1,15 @@
+<html>
+   <head>
+      <title>PHP with MySQL</title>
+   </head>
+   
+   <body>
+      <?php
+         $retval = mysql_function(value, [value,...]);
+         if( !$retval ) {
+            die ( "Error: a related error message" );
+         }
+         // Otherwise MySQL  or PHP Statements
+      ?>
+   </body>
+</html>
