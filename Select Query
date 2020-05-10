@@ -1,0 +1,4 @@
+SELECT field1, field2,...fieldN 
+FROM table_name1, table_name2...
+[WHERE Clause]
+[OFFSET M ][LIMIT N]
