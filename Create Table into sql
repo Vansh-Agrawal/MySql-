@@ -1,0 +1,10 @@
+create table vansh_tbl(
+   vansh_id INT NOT NULL AUTO_INCREMENT,
+   vansh_title VARCHAR(100) NOT NULL,
+   vansh_author VARCHAR(40) NOT NULL,
+   submission_date DATE,
+   PRIMARY KEY ( vansh_id )
+);
+
+
+
